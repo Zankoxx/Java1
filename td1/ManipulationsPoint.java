@@ -1,6 +1,6 @@
 package Vecteur.td1;
 
-import Vecteur.Vecteur.Point;
+import Vecteur.td2.Vecteur.Point;
 
 public class ManipulationsPoint {
     public static void main(String[] args) {

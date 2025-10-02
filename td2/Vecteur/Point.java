@@ -1,4 +1,4 @@
-package Vecteur.Vecteur;
+package Vecteur.td2.Vecteur;
 
 public class Point {
     private double x;
@@ -16,7 +16,7 @@ public class Point {
     }
 
     public String toString() {
-        return "Vecteur.Vecteur.Point x = " + x + " Vecteur.Vecteur.Point y =" + y;
+        return "Vecteur.td2.Vecteur.Point x = " + x + " Vecteur.td2.Vecteur.Point y =" + y;
     }
     public double module (Point p) {
         return Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));

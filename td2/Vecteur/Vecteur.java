@@ -1,4 +1,4 @@
-package Vecteur.Vecteur;
+package Vecteur.td2.Vecteur;
 
 public class Vecteur {
     private Point pcoord;
