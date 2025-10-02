@@ -1,3 +1,5 @@
+import Vecteur.Vecteur.Point;
+
 public class ManipulationsPoint {
     public static void main(String[] args) {
         Point o = new Point(0, 0);
