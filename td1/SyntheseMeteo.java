@@ -71,7 +71,7 @@ public class SyntheseMeteo {
             }
 
         }
-        else {System.out.println("Vecteur.td1.Mois incorrect");}
+        else {System.out.println("Mois incorrect");}
     }
     private Mois numMoisVersMois(int numMois) {
         return Mois.values()[numMois - 1];
