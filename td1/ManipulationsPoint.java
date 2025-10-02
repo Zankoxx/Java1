@@ -10,6 +10,8 @@ public class ManipulationsPoint {
         System.out.println(p1.module(o));
         Point p2 = p1.symetrie();
         System.out.println(p1.DistanceDe(p2));
+        Point p3 = new Point(6, 8);
+        System.out.println(p1.DistanceDe(p3));
 
 
 
