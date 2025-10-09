@@ -1,4 +1,4 @@
-package Vecteur.td3.exo3;
+package Vecteur.td3.exo2;
 
 public class Principale {
     public static void main(String[] args) {

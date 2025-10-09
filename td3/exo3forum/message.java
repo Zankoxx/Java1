@@ -1,4 +1,4 @@
-package Vecteur.td3.exo4forum;
+package Vecteur.td3.exo3forum;
 
 public class message {
     private String titre;
