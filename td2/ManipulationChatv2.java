@@ -1,7 +1,5 @@
 package Vecteur.td2;
 
-import Vecteur.td1.PelageChat;
-
 public class ManipulationChatv2 {
     public static void main (String[] args) {
         PelageChat pelageAzrael = new PelageChat(

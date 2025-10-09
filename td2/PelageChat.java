@@ -1,4 +1,4 @@
-package Vecteur.td1;
+package Vecteur.td2;
 
 public class PelageChat {
     private Couleurs[] couleur;
