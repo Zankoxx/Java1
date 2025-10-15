@@ -1,5 +1,6 @@
-package Vecteur.td2.Vecteur;
 
+package Vecteur.td2.Vecteur;
+/*
 public class Vecteur {
     private Point pcoord;
 
@@ -32,3 +33,5 @@ public class Vecteur {
 
 
 }
+
+*/

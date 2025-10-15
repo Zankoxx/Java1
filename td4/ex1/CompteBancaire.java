@@ -1,7 +1,7 @@
-package Vecteur.td4.Comptebancaire;
+package Vecteur.td4.ex1;
 
 public class CompteBancaire {
-    private int identifiant;
+    private final int identifiant;
     protected double solde;
 
     public CompteBancaire(int identifiant, double solde) {
@@ -14,7 +14,9 @@ public class CompteBancaire {
     public double getSolde() {
         return this.solde;
     }
-
+    public void setSolde(double solde) {
+        this.solde = solde;
+    }
     public void Ajouter(double argent){
         solde = solde+argent;
     }
@@ -24,6 +26,13 @@ public class CompteBancaire {
         } else {
             solde = solde-argent;
         }
+    }
+    @Override
+    public String toString() {
+        return "CompteBancaire{" +
+                "identifiant=" + identifiant + '\n' +
+                "solde =" + solde +
+                '}';
     }
 
 }
