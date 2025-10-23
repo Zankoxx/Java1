@@ -2,9 +2,9 @@ package Vecteur.td5;
 
 public class Colis extends ObjetPostal{
     private String contenu;
-    private float PrixColis;
+    private double PrixColis;
 
-    public Colis(String origine , String destination , String codePostal , double poids , double volume , tauxRecommandation tauxrec,String contenu, float prixColis) {
+    public Colis(String origine , String destination , String codePostal , double poids , double volume , tauxRecommandation tauxrec,String contenu, double prixColis) {
         super(origine,destination,codePostal,poids,volume,tauxrec);
         this.contenu = contenu;
         this.PrixColis = prixColis;
@@ -55,7 +55,7 @@ public class Colis extends ObjetPostal{
     @Override
 
     public String toString(){
-        return "Lettre "+ codePostal + "/" + destination + "/" +tauxrec
+        return "Colis "+ codePostal + "/" + destination + "/" +tauxrec
                 +"/" + volume + "/" + PrixColis;
     }
 

@@ -3,9 +3,6 @@ package Vecteur.td5;
 
 public abstract class ObjetPostal {
 
-    public enum tauxRecommandation {
-        FORT,MOYEN,NUL
-    }
 
     protected String origine;
     protected String destination;
